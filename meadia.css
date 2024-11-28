@@ -1,3 +1,4 @@
+
 body {
     background-color: white;
 }
@@ -6,14 +7,13 @@ h1
 text-align: center;
 color:white;
 font-size:xx-large;
-padding:5px;
 border: 2px solid white;
 background-color: black;
 border-radius:10px ;
+justify-items: centre;
 }
-
 .box {
-    
+    border: 2px solid  black;
     background-color: white;
     border-radius: 30px;
     width: 663px;
@@ -65,5 +65,8 @@ border-radius:10px ;
   text-align-last: right;
   
 }
+
+
+    
 
 
