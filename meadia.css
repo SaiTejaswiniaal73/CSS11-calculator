@@ -1,106 +1,69 @@
-img{
-    height: 180px;
-    width: 180px;
-
-   
+body {
+    background-color: white;
 }
-@media  screen and (orientation:landscape) {
-    body{
-        background-color: aqua;
-    }
-    .main{
-        border: 5px solid rgb(167, 145, 241);
-        background-color: rgba(47, 189, 255, 0.217);
-        padding: 20px;
-    }
-}
-@media screen and (orientation:portrait) {
-    body{
-        background-color: yellowgreen;
-    }
-    .main{
-        border: 5px solid rgba(224, 112, 170, 0.998);
-        background-color: rgb(228, 11, 119);
-    }
-}
-.main{
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    padding: 25px;
-    gap: 45px;
-    background-color:yellow;
-    
-}
-.person1
+h1
 {
-    border: 5px solid rgba(244, 22, 229, 0.863);
-    width: 250px;
-    padding: 15px;
-}
-.matter1,.matter2,.matter3
-{
-    height: 100px;
-    display: flex;
-    overflow: scroll;
-    text-align:justify;
-    color: white;
-}
-
-.matter1{
-border: 5px solid rgb(133, 159, 7);
-background-color: rgb(231, 162, 15);
-}
-.person2
-{
-    border: 5px solid rgba(244, 22, 229, 0.863);
-    width: 250px;
-    padding: 10px;
-}
-
-.matter2{
-    border: 5px solid black;
-    background-color: rgb(35, 14, 223);
-    
-}
-.person3
-{
-    border: 5px solid rgba(244, 22, 229, 0.863);
-    width: 250px;
-    padding: 10px;
-}
-
-.matter3{
-    border: 5px solid black;
-    background-color: rgb(241, 28, 28);
-}
-::-webkit-scrollbar{
-    display: none;
-}
-
-/* h1{
 text-align: center;
-background-color:antiquewhite;
-    text-align: justify;
-    border: 5px solid Chartreuse;
-    display: flex;
-    flex-direction: row;
-} */
-.pic1,.pic2,.pic3
-{
-    background-color: beige;
-    border: 10px solid Fuchsia;
-    display: flex;
-    align-items: center;
-    justify-content: center;flex-direction: row;  
+color:white;
+font-size:xx-large;
+padding:5px;
+border: 2px solid white;
+background-color: black;
+border-radius:10px ;
 }
-.name1,.name2,.name3
-{
-  background-color:antiquewhite;
-  text-align: justify;
-  border: 5px solid Chartreuse;
-  display: flex;
-  flex-direction: row;  
- 
+
+.box {
+    
+    background-color: white;
+    border-radius: 30px;
+    width: 663px;
+    height: 400px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7, 85px);
+    gap: 10px;
+    padding: 3px;
 }
+
+.box > div {
+    color: black;
+    border: 5px solid white;
+    background-color: grey;
+    border-radius: 60px;
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+}
+
+#result {
+    grid-row: 1/8;
+    grid-column: 1/8;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#equal {
+    border: 3px solid blue;
+    background-color: blue;
+    color: black;
+}
+#tri {
+    border: 3px #A0A0A0;
+    background-color: #A0A0A0;
+    color: black;
+}
+#abc
+{
+  border: 3px #696969;
+  background-color: #696969;
+  color: black;
+}
+.zero
+{
+  
+  text-align-last: right;
+  
+}
+
 
